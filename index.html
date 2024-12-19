@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghiceste numarul</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="adivinanumero.js" defer></script>
+</head>
+<body>
+    <center>
+        <img src="picc.png" alt="imagine">
+    <h1>Ghiceste numarul</h1>
+
+    <p>Trebuie sa ghicesti un numaar intre 1 si 100</p>
+    <p>Incercati sa ghiciti in 10 incercari sau mai putin</p>
+    <p>Va va indica daca numarul este mai mare sau mai mic</p>
+
+    <div class="form">
+        <label for="guessField">Introduceti numarul</label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+   </div>
+
+   <div class="resultParas">
+    <p class="guesses"></p>
+    <p class="lastResult"></p>
+    <p class="lowOrHigh"></p>
+    
+</div>
+</center>
+</html>
+</body>
